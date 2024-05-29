@@ -3,18 +3,17 @@ body {
     margin: 0;
 }
 
-#container {
-    display: flex;
-    width: 600px;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-between;
-}
-
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
 }
 
 #page-logo a {
@@ -25,5 +24,14 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0, 0, 0); /*가로 세로 블러radius 색상*/
+}
+
+header ul {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+header li {
+    margin-left: 20px;
 }
 
